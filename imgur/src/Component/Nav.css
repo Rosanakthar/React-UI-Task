@@ -1,4 +1,79 @@
-.navbar{
-    background-color: #1a193e;
-    color: azure;
+.navbar {
+  background-color: #1e1d4d;
+  /* background-color: wheat; */
+  color: azure;
+}
+.inputbox {
+  padding-left: 390px;
+  margin-left: 20px;
+}
+.span {
+  padding: 5.5px;
+  width: 30px;
+}
+.icon {
+  color: black;
+}
+.post{
+  background-color: #1bb76e;
+  color: white;
+  border-radius: 4px;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+/* post field */
+.card-size {
+  width: 100%;
+  /* float: left; */
+  /* margin: 3px 9px; */
+  background-color: #474a51;
+}
+.card-body{
+  background-color: #474a51;
+  color: #ffffff;
+  
+}
+.pad {
+  padding-left: 10%;
+}
+::placeholder {
+  color: rgb(0, 0, 0);/* Firefox */
+}
+
+  @media only screen and (max-width: 600px) {
+    .post {
+      /* background-color: lightblue; */
+      margin-left: 0;
+      width: 100px;
+    }
+    .ads{
+      margin-left: -50px;
+      width: 40%;
+      text-align: center;
+      margin-top: 30px;
+
+    }
+    .inputbox{
+      margin-left: -100px;
+      margin-top: 10px;
+      width: 20%;
+    }
+    .up{
+      margin-left: -20px;
+    }
+    .logo{
+      align-items: center;
+      margin-left: 50%;
+      margin-top: -100px;
+    }
   }

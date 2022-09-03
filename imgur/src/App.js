@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './Component/Nav';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Potes from './Component/post';
 
 function App() {
   return (
@@ -8,8 +11,8 @@ function App() {
       {/* navigation bar */}
       <Navigation></Navigation>
       <br />
-      <h1>gggg</h1>
-
+      {/* Post rendering */}
+      <Potes></Potes>
     </div>
   );
 }

@@ -1,4 +1,14 @@
-nav{
-  background-color: #1a193e;
-  color: azure;
+nav {
+    background-color: #1a193e;
+    color: azure;
+}
+
+.card-size {
+    width: 20%;
+    float: left;
+    margin: 3px 9px;
+}
+
+.pad {
+    padding-left: 10%;
 }
